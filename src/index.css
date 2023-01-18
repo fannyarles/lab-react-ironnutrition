@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  padding: 50px;
+}
+
+b {
+  margin: auto;
+}
+
+#searchbar {
+  margin: 50px;
+}
+
+form {
+  max-width: 350px;
+  margin: auto;
+}
+
+#foods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#foods > div {
+  width: 30%;
+  margin: 50px auto;
+}
